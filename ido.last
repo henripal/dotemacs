@@ -1,0 +1,29 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/henripal/" . ".emacs.d.old/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/henripal/.emacs.d.old/"
+ "/Users/henripal/.emacs.d/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/henripal/.emacs.d.old/" (22733 27340 0 0) "tramp" "themes/" "snippets/" "README.md" "projectile-bookmarks.eld" "places" "init.el" "ido.last~" "ido.last" "evil/" "elpa/" "customizations/" "cider-history" "backups/" "auto-save-list/" ".smex-items" ".recentf~" ".recentf" ".lein/" ".gitignore" ".emacs.d/" ".DS_Store" ".config/" "#init.el#" "../" "./")
+
+ ("/Users/henripal/.emacs.d/" (22733 58328 0 0) "init.el~" "init.el" "ido.last" "elpa/" "auto-save-list/" ".#init.el" "../" "./")
+
+ ("/Users/henripal/" (22733 58195 0 0) "unimap.hex" "tmp-pdfcrop-2600.pdf" "Sites/" "sent" "secondkey.pem" "seaborn-data/" "scikit_learn_data/" "ritonkey.pub.pub" "ritonkey.pub" "quicklisp/" "pymc3/" "Public/" "Pictures/" "Music/" "mplayer/" "Movies/" "mongo/" "mkp.pem" "miniconda3/" "metis-5.1.0/" "macports/" "Library/" "libffi/" "Karabiner-Elements/" "Google Drive/" "gdrive/" "Dropbox/" "Downloads/" "Documents/" "dlib/" "dfu-programmer/" "Desktop/" "Creative Cloud Files/" "completer.hist" "Applications/" ".zzrwoxwn" ".zshrc.pre-oh-my-zsh" ".zshrc.orig" ".zshrc" ".zsh_history" ".zsh-update" ".zprofile" ".zcompdump-MacBook-5.3.1" ".Xauthority" ".vimrc" ".viminfo" ".vim/" ".urlview" ".Trash/" ".tracker.prefs" ".tmux.conf" ".thumbnails/" ".theano/" ".subversion/" ".ssh/" ".spyder2-py3/" ".spacemacs" ".slime_paste" ".slime/" ".serverauth.4959" ".serverauth.28754" ".scala_history" ".sbclrc" ".rvm/" ".rstudio-desktop/" ".rnd" ".Rhistory" ".rediscli_history" ".Rapp.history" ".rainbow_oauth" ".rainbow_config.json" ".qt/" ".pyxbld/" ".python_history" ".oracle_jre_usage/" ".oh-my-zsh/" ".nylas/" ".nx/" ".nrn_as2sh" ".npmrc" ".npm/" ".node-gyp/" ".netrc" ".nchsoftware/" ".mypoint/" ".muttrc" ".mutt/" ".mongorc.js" ".mime.types" ".mcrCache8.5/" ".mbpidmjrc" ".matplotlib/" ".matlab/" ".mailcap" ".m2/" ".local/" ".lesshst" ".lein_history" ".lein/" ".keras/" ".karabiner.d/" ".jupyter/" ".juliarc.jl" ".julia_history" ".julia/" ".irb_history" ".irb-history" ".ipython/" ".ipynb_checkpoints/" ".inkscape-etc/" ".image.so" ".heroku/" ".gnome2/" ".gitconfig" ".gitbook/" ".ghc/" ".gem/" ".forever/" ".fontconfig/" ".emscripten_sanity" ".emscripten_cache/" ".emscripten" ".emacs.d.old/" ".emacs.d/" ".electron/" ".eclipse/" ".DS_Store" ".dropbox/" ".dbshell" ".cups/" ".continuum/" ".config/" ".condarc" ".conda/" ".cmake/" ".CFUserTextEncoding" ".ccl-init.lisp" ".cache/" ".cabal/" ".bundle/" ".boot/" ".bashrc" ".bash_sessions/" ".bash_prompt" ".bash_profile.macports-saved_2016-01-22_at_10:42:41" ".bash_profile.ghc.orig" ".bash_profile-miniconda3.bak" ".bash_profile-anaconda.bak" ".bash_profile" ".bash_history" ".babel.json" ".aws/" ".atom/" ".aliases" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
