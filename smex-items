@@ -1,0 +1,20 @@
+
+;; ----- smex-history -----
+(
+ customize-variable
+ load-theme
+ eval-buffer
+ eval-last-sexp
+ customize-face
+ cd
+ 5x5
+)
+
+;; ----- smex-data -----
+(
+ (eval-last-sexp . 28)
+ (customize-face . 1)
+ (eval-buffer . 1)
+ (load-theme . 25)
+ (customize-variable . 2)
+)

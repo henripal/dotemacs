@@ -35,6 +35,8 @@
 (setq make-backup-files nil)
 ;; no menu
 (setq ns-auto-hide-menu-bar -1)
+;; tramp
+(setq tramp-default-method "ssh")
 
 ;; ido & smex stuff
 (ido-mode 1)
@@ -82,13 +84,22 @@ then it takes a second \\[keyboard-quit] to abort the minibuffer."
 (global-set-key [escape] 'evil-exit-emacs-state)
 
 ;; visuals
-(load-theme 'wombat)
+(setq inhibit-startup-screen t)
+ (setq mac-allow-anti-aliasing t)  ;; turn off anti-aliasing
 (set-face-attribute 'default nil
-                    :family "Source Code Pro"
-                    :weight 'normal
-                    :height 150)
-(add-to-list 'default-frame-alist '(fullscreen . fullheight))
+                    :family "Roboto Mono for Powerline"
+                    :height 130
+                    :weight 'medium)
 
+(add-to-list 'default-frame-alist '(fullscreen . fullheight))
+ (let ((basedir "~/.emacs.d/themes/"))
+      (dolist (f (directory-files basedir))
+        (if (and (not (or (equal f ".") (equal f "..")))
+                 (file-directory-p (concat basedir f)))
+            (add-to-list 'custom-theme-load-path (concat basedir f)))))
+
+
+(load-theme 'material t)
 ;; tabs
 (setq-default tab-width 4 indent-tabs-mode nil)
 (setq-default c-basic-offset 4 c-default-style "bsd")
@@ -121,6 +132,9 @@ scroll-step 1)
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(custom-safe-themes
+   (quote
+    ("b9cbfb43711effa2e0a7fbc99d5e7522d8d8c1c151a3194a4b176ec17c9a8215" "98cc377af705c0f2133bb6d340bf0becd08944a588804ee655809da5d8140de6" default)))
  '(package-selected-packages (quote (evil))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
