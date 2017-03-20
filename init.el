@@ -31,6 +31,8 @@
 (define-key global-map (kbd "RET") 'newline-and-indent)
 ;; scroll bar mode off
 (scroll-bar-mode -1)
+(menu-bar-mode -1)
+(tool-bar-mode -1)
 ;; no backup files
 (setq make-backup-files nil)
 ;; no menu

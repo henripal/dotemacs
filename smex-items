@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ tool-bar-mode
+ menu-bar-mode
  customize-variable
  load-theme
  eval-buffer
  eval-last-sexp
  customize-face
- cd
- 5x5
 )
 
 ;; ----- smex-data -----
@@ -17,4 +17,6 @@
  (eval-buffer . 1)
  (load-theme . 25)
  (customize-variable . 2)
+ (menu-bar-mode . 1)
+ (tool-bar-mode . 1)
 )
